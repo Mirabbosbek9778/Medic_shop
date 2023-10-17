@@ -1,5 +1,7 @@
+import { Wrapper } from "./style";
+
 const Navbar = () => {
-  return <div>Navbar</div>;
+  return <Wrapper>Navbar</Wrapper>;
 };
 
 export default Navbar;
