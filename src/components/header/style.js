@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 const HeaderApp = styled.div`
-border: 2px solid red;
 margin: auto;
 height: 980px;
 background-image: url(/src/assets/images/HeaderImg.png);

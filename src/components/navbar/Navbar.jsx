@@ -1,6 +1,6 @@
 import { useState } from "react";
 import {
- Nav, Wrapper, NavItem, NavIcon, NavItemBox,
+  Nav, Wrapper, NavItem, NavIcon, NavItemBox,
   NavPart, NavPartSearch, NavButtonsLink
 } from "./style";
 import siteLogo from '/src/assets/images/logo.png'
@@ -13,14 +13,11 @@ import navUzbIcon from '/src/assets/icons/uzb.svg'
 import { BrowserRouter as Router } from "react-router-dom";
 import { StyledNavLink as NavLink } from './style';
 
-
-
 const Navbar = () => {
   const [language, setLanguage] = useState(null)
   return (
     <Router>
       <Nav>
-
         <Wrapper >
           <NavItem className="nav-item">
             <NavIcon className="nav-icon">
@@ -36,7 +33,7 @@ const Navbar = () => {
             <p>+998 71 276-62-53 <br />  +998 71 276-62-54</p>
           </NavItem>
           <a href="#">
-            <img he src={siteLogo} alt="No image" />
+            <img src={siteLogo} alt="No image" />
           </a>
           <NavItemBox className="nav-item-box">
             <NavPartSearch>
