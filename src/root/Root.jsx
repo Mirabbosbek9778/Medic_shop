@@ -1,11 +1,12 @@
+import Header from "../components/header/Header";
 import Navbar from "../components/navbar/Navbar";
 
 const Root = () => {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
+      <Header/>
 
-      <h1>Hello world</h1>
     </div>
   );
 };
